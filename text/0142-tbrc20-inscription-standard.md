@@ -64,9 +64,9 @@ Users can list their TBRC-20 for sale by sending the following message to his TB
 
 `$AMOUNT` is the amount of tokens. The amount is to be parsed in the same manner as described above.
 
-`$PRICE` is the *total* price in TON/nanoton to be paid for the entire `$AMOUNT` of TBRC-20 tokens. Anyone can buy from a listing by sending a Buy message to the TBRC-20/Jetton wallet which has the listing with TON attached, as described below. The entire amount must be purchased. A user may list up to 100 listings. Multiple listings at the same price and amount are allowed. Tokens listed are still visible as part of the total balance, but listed amounts are locked and untransferrable until the listing is subsequently bought or unlisted.
+`$PRICE` is the *total* price in TON/nanoton to be paid for the entire `$AMOUNT` of TBRC-20 tokens. Anyone can buy from a listing by sending a Buy message to the TBRC-20/Jetton wallet which has the listing with TON attached, as described below. The entire amount must be purchased. A user may list up to 100 listings. Multiple listings at the same price and amount are allowed. Tokens listed are still visible as part of the total balance, but listed amounts are locked and untransferable until the listing is subsequently bought or unlisted.
 
-## Unist
+## Unlist
 
 Users can unlist their TBRC-20 for sale by sending the following message to his TBRC-20 wallet contract:
 
